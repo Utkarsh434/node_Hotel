@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const _ = require('lodash');
 const db = require('./db');
 require('dotenv').config(); //ab server ko pata hai kki uske pass dotenv file hai  or uss dotenv file se wo har variable ko utha raha hai 
 const bodyParser = require('body-parser');
